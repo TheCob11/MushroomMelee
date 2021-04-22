@@ -1,0 +1,11 @@
+Suggestions:
+
+Al: 2021-03-31
+a) Make canvas a little smaller on the right side so you have an area for settings
+b) Add a button on settings to turn off sound - Add a global flag, the button will turn off flag which will shut off pew-pew
+c) Add background music - Audio off button will turn that off as well
+d) ROTATE YOUR ENEMY WARSHIPS TO FACE YOU PLEASE - UNTIL YOU GET BETTER ONES. :slight_smile: :slight_smile:
+e) When laser hits enemy warship, make a boom sound and show something happening - explode icon/picture etc.
+f) Add a fixed no. of lives - say 3 - show them in the settings area.
+g) If you are hit by an enemy warship, you lose a life. And show yourself being bombed/blown up
+h) If you have life points, you could also lose some life points if an enemy warship goes past you without being killed.

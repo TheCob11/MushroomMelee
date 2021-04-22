@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- https://SpaceShooter.thecob.repl.co/Al/index.html -->
+<html>
+
+<head>
+	<title>SVG Illustrator Test</title>
+</head>
+
+<body>
+
+	<object data="/svgSketch2.svg" type="image/svg+xml" id="alphasvg" width="100%" height="100%"></object>
+
+        <script>
+            var a = document.getElementById("alphasvg");
+            
+            const animateCircle = () => {
+              let startTime = 0;
+              const totalTime = 1000; // 1000ms = 1s
+              const animateStep = (timestamp) => {
+              if (!startTime) startTime = timestamp;
+                // progress goes from 0 to 1 over 1s
+                const progress = (timestamp - startTime) / totalTime;
+                // move right 100 px
+                circleNode.setAttributeNS(null, 'cx', 50 + (100 * progress));
+                if (progress < 1) {
+                  window.requestAnimationFrame(animateStep);
+                }
+              }
+              window.requestAnimationFrame(animateStep);
+            };
+
+            document.getElementById('start-button').addEventListener('click', animateCircle);
+        </script>
+    </body>
+    </html>
